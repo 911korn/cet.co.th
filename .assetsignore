@@ -1,0 +1,12 @@
+.git
+.gitignore
+.assetsignore
+wrangler.jsonc
+vercel.json
+DEPLOY.md
+README.md
+scripts
+node_modules
+.wrangler
+.gitattributes
+_headers.bak

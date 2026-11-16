@@ -1,0 +1,9 @@
+{
+  // cet.co.th: a static site on Cloudflare Workers static assets (account cetonline). Deploy: npx wrangler@4 deploy
+  // Headers of vercel.json live in _headers; clean URLs = html_handling.
+  "$schema": "https://unpkg.com/wrangler@4/config-schema.json",
+  "name": "cet-co-th",
+  "compatibility_date": "2026-11-01",
+  "assets": { "directory": "./", "html_handling": "drop-trailing-slash", "not_found_handling": "404-page" },
+  "workers_dev": true
+}
